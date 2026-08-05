@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">    
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Permata Group WebGIS</title>
+
+<link rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/ol@10.6.1/ol.css">
+
+<link rel="stylesheet"
+href="css/style.css">
+
+</head>
+
+<body>
+
+<header id="header">
+
+    <div id="header-logo">
+
+        <img
+            src="assets/logo/permata.png"
+            alt="Permata Group"
+        >
+
+    </div>
+
+</header>
+
+
+<div id="container">
+
+    <button id="mobileMenuBtn" class="mobile-menu-btn">
+    ☰ Menu
+</button>
+
+    <aside id="sidebar">
+
+    <!-- SEARCH -->
+    <div class="sidebar-section">
+
+        <div class="sidebar-title">
+
+
+
+
+</div>
+
+        <div id="search-container">
+
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Search mill...">
+
+            <button id="search-clear">
+
+                ✕
+
+            </button>
+
+        </div>
+
+        <div id="search-result"></div>
+
+    </div>
+
+    <hr>
+
+    <!-- BASEMAP -->
+    <div class="sidebar-section">
+
+        <div class="sidebar-title">
+
+<span class="material-symbols-outlined">
+layers
+</span>
+
+<span>Basemap</span>
+
+</div>
+
+        <div id="basemap-list"></div>
+
+    </div>
+
+
+    <hr>
+
+    <div class="sidebar-section">
+
+        <div class="sidebar-title">
+
+<span class="material-symbols-outlined">
+stack
+</span>
+
+<span>Layers</span>
+
+</div>
+
+        <div id="layer-list"></div>
+
+    </div>
+
+    <hr>
+
+    <div class="sidebar-section">
+
+        <div class="sidebar-title">
+
+<span class="material-symbols-outlined">
+list
+</span>
+
+<span>Legend</span>
+
+</div>
+
+        <div id="legend"></div>
+
+        <hr>
+
+<div class="sidebar-section">
+
+    <h3>Supply Base</h3>
+
+    <div id="supplybase-panel"></div>
+
+</div>
+
+    </div>
+
+</aside>
+
+
+    <div id="map"></div>
+
+    <!-- ===================================== -->
+<!-- FLOATING GIS TOOLBAR -->
+<!-- ===================================== -->
+
+<div id="map-toolbar">
+
+    <button
+        id="btnDistance"
+        class="tool-btn"
+        title="Measure Distance">
+
+        📏
+
+    </button>
+
+    <button
+        id="btnArea"
+        class="tool-btn"
+        title="Measure Area">
+
+        ⬠
+
+    </button>
+
+    <button
+        id="btnClearMeasure"
+        class="tool-btn"
+        title="Clear Measurement">
+
+        ✖
+
+    </button>
+
+</div>
+
+
+</div>
+
+    <div id="popup" class="popup">
+
+    <div class="popup-header">
+
+        <span id="popup-title">
+
+            Supply Base Information
+
+        </span>
+
+        <button id="popup-close">
+
+            ✕
+
+        </button>
+
+    </div>
+
+    <div id="popup-body">
+
+    </div>
+
+</div>
+
+<footer id="footer">
+    Ready
+</footer>
+
+<!-- OpenLayers -->
+<script src="https://cdn.jsdelivr.net/npm/ol@10.6.1/dist/ol.js"></script>
+
+<!-- Project -->
+<script src="js/app.js"></script>
+<script src="js/map.js"></script>
+<script src="js/dataLoader.js"></script>
+<script src="js/styleManager.js"></script>
+<script src="js/layerManager.js"></script>
+<script src="js/filterManager.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/sidebar.js"></script>
+<script src="js/highlightManager.js"></script>
+<script src="js/popup.js"></script>
+<script src="js/search.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/tools.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>

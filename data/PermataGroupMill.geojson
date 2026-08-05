@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "PermataGroupMill",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Mill Name": "Nubika Jaya", "Latitude": 1.947629, "Longitude": 100.10167, "Province": "Sumatera Utara", "Regency": "Labuhanbatu Selatan" }, "geometry": { "type": "Point", "coordinates": [ 100.10167, 1.947629 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Pelita Agung Agrindustri - Duri", "Latitude": 1.427931, "Longitude": 101.188599, "Province": "Riau", "Regency": "Bengkalis" }, "geometry": { "type": "Point", "coordinates": [ 101.188599, 1.427931 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Permata Hijau Sawit", "Latitude": 1.06572, "Longitude": 100.07039, "Province": "Sumatera Utara", "Regency": "Padang Lawas" }, "geometry": { "type": "Point", "coordinates": [ 100.07039, 1.06572 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Permata Hijau Indonesia - Hutalombang", "Latitude": 1.13935, "Longitude": 99.76689, "Province": "Sumatera Utara", "Regency": "Padang Lawas" }, "geometry": { "type": "Point", "coordinates": [ 99.76689, 1.13935 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Permata Hijau Indonesia - Balam", "Latitude": 1.6955, "Longitude": 100.68383, "Province": "Riau", "Regency": "Rokan Hilir" }, "geometry": { "type": "Point", "coordinates": [ 100.68383, 1.6955 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Permata Hijau Indonesia - Langgam", "Latitude": 0.303999999999992, "Longitude": 101.905, "Province": "Riau", "Regency": "Pelalawan" }, "geometry": { "type": "Point", "coordinates": [ 101.905, 0.304 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Permata Hijau Palm Oleo - KIM", "Latitude": 3.6586959998498418, "Longitude": 98.693748243687679, "Province": "Sumatera Utara", "Regency": "Deli Serdang" }, "geometry": { "type": "Point", "coordinates": [ 98.693748243687679, 3.658695999849841 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Permata Hijau Palm Oleo - Belawan", "Latitude": 3.781028757832972, "Longitude": 98.693805571803821, "Province": "Sumatera Utara", "Regency": "Kota Medan" }, "geometry": { "type": "Point", "coordinates": [ 98.693805571803821, 3.781028757832972 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Pelita Agung Agrindustri - Dumai", "Latitude": 1.6857424495009059, "Longitude": 101.45116767217525, "Province": "Riau", "Regency": "Kota Dumai" }, "geometry": { "type": "Point", "coordinates": [ 101.451167672175245, 1.685742449500906 ] } },
+{ "type": "Feature", "properties": { "Mill Name": "Pelita Agung Agrindustri - KID", "Latitude": 1.640516318536434, "Longitude": 101.64367036764105, "Province": "Riau", "Regency": "Kota Dumai" }, "geometry": { "type": "Point", "coordinates": [ 101.64367036764105, 1.640516318536434 ] } }
+]
+}
