@@ -883,7 +883,7 @@ font-variation-settings:
 
     /* Toolbar peta lebih kecil */
     #map-toolbar{
-        top:120px;
+        top:50px;
         right:10px;
         gap:6px;
     }
